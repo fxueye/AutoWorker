@@ -1,0 +1,28 @@
+{
+    "servers": {
+		"host":"127.0.0.1",
+		"port":5000,
+		"socketInterval":500,
+		"interval":200,
+		"monitorMinute":1,
+		"monitorSecond":3,
+		"monitorMills":400,
+		"workProcCount":10
+    },
+    "db": {
+        "host": "localhost",
+        "user": "root",
+        "passwd": "root",
+        "port": 3306,
+        "db": "mall",
+        "charset": "utf8"
+    },
+	"mail":{
+		"mailProcCount":10,
+		"userName":"568669736@qq.com",
+		"password":"skw0103",
+		"sender":"568669736@qq.com",
+		"smptserver":"smtp.qq.com"
+	}
+
+}

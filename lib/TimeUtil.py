@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 '''
 Created on 2014年10月16日
 @author: skw QQ:281431280

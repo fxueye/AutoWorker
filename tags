@@ -1,0 +1,715 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AccountWrap	framework/wrap/AccountWrap.py	/^class AccountWrap(Wrapper):$/;"	c
+Action	framework/timer/Action.py	/^class Action(object):$/;"	c
+ActiveWrap	framework/wrap/ActiveWrap.py	/^class ActiveWrap(Wrapper):$/;"	c
+ActivityWrap	framework/wrap/ActivityWrap.py	/^class ActivityWrap(Wrapper):$/;"	c
+AppQueue	public/AppQueue.py	/^class AppQueue(object):$/;"	c
+BOOL	framework/Packet.py	/^    BOOL = [1, 1, '?']$/;"	v	class:Packet
+BTHeroWrap	framework/wrap/BTHeroWrap.py	/^class BTHeroWrap(Wrapper):$/;"	c
+BYTE	framework/Packet.py	/^    BYTE = [0, 1, 'b']$/;"	v	class:Packet
+BgnCharToNoneRex	lib/HtmlTools.py	/^    BgnCharToNoneRex = re.compile("(\\t|\\n| |<a.*?>|<img.*?>)")  $/;"	v	class:HtmlTools
+BgnPartRex	lib/HtmlTools.py	/^    BgnPartRex = re.compile("<p.*?>")  $/;"	v	class:HtmlTools
+BonusWrap	framework/wrap/BonusWrap.py	/^class BonusWrap(Wrapper):$/;"	c
+BossBattleReport	framework/wrap/BossBattleReport.py	/^class BossBattleReport(Wrapper):$/;"	c
+BossBonusIds	framework/wrap/BonusWrap.py	/^    BossBonusIds = []$/;"	v	class:BonusWrap
+BossBonusWrap	framework/wrap/BossBonusWrap.py	/^class BossBonusWrap(Wrapper):$/;"	c
+BossBounsCounts	framework/wrap/BonusWrap.py	/^    BossBounsCounts = []$/;"	v	class:BonusWrap
+BossDamWrap	framework/wrap/BossDamWrap.py	/^class BossDamWrap(Wrapper):$/;"	c
+BossWrap	framework/wrap/BossWrap.py	/^class BossWrap(Wrapper):$/;"	c
+Browser	lib/Browser.py	/^class Browser(object):$/;"	c
+BuildRankWrap	framework/wrap/BuildRankWrap.py	/^class BuildRankWrap(Wrapper):$/;"	c
+BuildWrap	framework/wrap/BuildWrap.py	/^class BuildWrap(Wrapper):$/;"	c
+CharToNewLineRex	lib/HtmlTools.py	/^    CharToNewLineRex = re.compile("(<br\/>|<\/p>|<tr>|<div>|<\/div>)")  $/;"	v	class:HtmlTools
+CharToNextTabRex	lib/HtmlTools.py	/^    CharToNextTabRex = re.compile("<td>")$/;"	v	class:HtmlTools
+CheckService	main/services/CheckService.py	/^class CheckService(Service):$/;"	c
+Command	framework/Command.py	/^class Command(object):$/;"	c
+CommodityWrap	framework/wrap/CommodityWrap.py	/^class CommodityWrap(Wrapper):$/;"	c
+DAY_MILLS	util/TimerUtil.py	/^    DAY_MILLS = HOUR_MILLS * 24;$/;"	v	class:TimerUtil
+DOUBLE	framework/Packet.py	/^    DOUBLE = [7, 8, 'd']$/;"	v	class:Packet
+EndCharToNoneRex	lib/HtmlTools.py	/^    EndCharToNoneRex = re.compile("<.*?>")  $/;"	v	class:HtmlTools
+EquipAttrWrap	framework/wrap/EquipAttrWrap.py	/^class EquipAttrWrap(Wrapper):$/;"	c
+FLOAT	framework/Packet.py	/^    FLOAT = [6, 4, 'f']$/;"	v	class:Packet
+FullPlayerWrap	framework/wrap/FullPlayerWrap.py	/^class FullPlayerWrap(Wrapper):$/;"	c
+GActivityWrap	framework/wrap/GActivityWrap.py	/^class GActivityWrap(Wrapper):$/;"	c
+GachaResultWrap	framework/wrap/GachaResultWrap.py	/^class GachaResultWrap(Wrapper):$/;"	c
+GachaWrap	framework/wrap/GachaWrap.py	/^class GachaWrap(Wrapper):$/;"	c
+GetInstance	main/MainDev.py	/^    def GetInstance():$/;"	m	class:MainDev
+GuildLogWrap	framework/wrap/GuildLogWrap.py	/^class GuildLogWrap(Wrapper):$/;"	c
+GuildMemberWrap	framework/wrap/GuildMemberWrap.py	/^class GuildMemberWrap(Wrapper):$/;"	c
+GuildWrap	framework/wrap/GuildWrap.py	/^class GuildWrap(Wrapper):$/;"	c
+HALF_DAY_MILLS	util/TimerUtil.py	/^    HALF_DAY_MILLS = HOUR_MILLS * 12;$/;"	v	class:TimerUtil
+HOUR_MILLS	util/TimerUtil.py	/^    HOUR_MILLS = MINUTE_MILLS * 60;$/;"	v	class:TimerUtil
+HeroWrap	framework/wrap/HeroWrap.py	/^class HeroWrap(Wrapper):$/;"	c
+HtmlTools	lib/HtmlTools.py	/^class HtmlTools:  $/;"	c
+INT	framework/Packet.py	/^    INT = [3, 4, 'i']$/;"	v	class:Packet
+IoHander	framework/handler/IoHander.py	/^class IoHander(Protocol):$/;"	c
+ItemWrap	framework/wrap/ItemWrap.py	/^class ItemWrap(Wrapper):$/;"	c
+JavaScriptRex	lib/HtmlTools.py	/^    JavaScriptRex = re.compile("<script.*?<\/script>")$/;"	v	class:HtmlTools
+LLONG	framework/Packet.py	/^    LLONG = [5, 8, 'q']$/;"	v	class:Packet
+LOG_PATH	lib/MyLog.py	/^LOG_PATH = 'log\/'$/;"	v
+LONG	framework/Packet.py	/^    LONG = [4, 4, 'l']$/;"	v	class:Packet
+MINUTE_MILLS	util/TimerUtil.py	/^    MINUTE_MILLS = SECOND_MILLS * 60;$/;"	v	class:TimerUtil
+Mail	lib/Mail.py	/^class Mail(object):$/;"	c
+MailD	lib/Mail.py	/^class MailD():$/;"	c
+MailProc	main/process/MailProc.py	/^class MailProc(SProcess):$/;"	c
+MailService	main/services/MailService.py	/^class MailService(Service):$/;"	c
+MailWrap	framework/wrap/MailWrap.py	/^class MailWrap(Wrapper):$/;"	c
+MainDev	main/MainDev.py	/^class MainDev(SDevice):$/;"	c
+MainProc	main/process/MainProc.py	/^class MainProc(SProcess):$/;"	c
+MainService	main/services/MainService.py	/^class MainService(Service):$/;"	c
+MessageWrap	framework/wrap/MessageWrap.py	/^class MessageWrap(Wrapper):$/;"	c
+MonitorAction	main/timer/MonitorAction.py	/^class MonitorAction(Action):$/;"	c
+MonsterBonusCounts	framework/wrap/BonusWrap.py	/^    MonsterBonusCounts = []$/;"	v	class:BonusWrap
+MonsterBonusIds	framework/wrap/BonusWrap.py	/^    MonsterBonusIds = []$/;"	v	class:BonusWrap
+MonsterBonusWrap	framework/wrap/MonsterBonusWrap.py	/^class MonsterBonusWrap(Wrapper):$/;"	c
+MyLog	lib/MyLog.py	/^class MyLog(object):$/;"	c
+Mysql	lib/Mysql.py	/^class Mysql(object):$/;"	c
+Network	lib/Network.py	/^class Network(object):$/;"	c
+NoticeWrap	framework/wrap/NoticeWrap.py	/^class NoticeWrap(Wrapper):$/;"	c
+PActivityWrap	framework/wrap/PActivityWrap.py	/^class PActivityWrap(Wrapper):$/;"	c
+PChatWrap	framework/wrap/PChatWrap.py	/^class PChatWrap(Wrapper):$/;"	c
+PGuildWrap	framework/wrap/PGuildWrap.py	/^class PGuildWrap(Wrapper):$/;"	c
+PSignWrap	framework/wrap/PSignWrap.py	/^class PSignWrap(Wrapper):$/;"	c
+Packet	framework/Packet.py	/^class Packet(object):$/;"	c
+PeriodicTimer	framework/timer/PeriodicTimer.py	/^class PeriodicTimer(object):$/;"	c
+PlayerWrap	framework/wrap/PlayerWrap.py	/^class PlayerWrap(Wrapper):$/;"	c
+PveFriendInfoWrap	framework/wrap/PveFriendInfoWrap.py	/^class PveFriendInfoWrap(Wrapper):$/;"	c
+PveGroupWrap	framework/wrap/PveGroupWrap.py	/^class PveGroupWrap(Wrapper):$/;"	c
+PveWrap	framework/wrap/PveWrap.py	/^class PveWrap(Wrapper):$/;"	c
+PvpActorStatusWrap	framework/wrap/PvpActorStatusWrap.py	/^class PvpActorStatusWrap(Wrapper):$/;"	c
+PvpActorWrap	framework/wrap/PvpActorWrap.py	/^class PvpActorWrap(Wrapper):$/;"	c
+PvpInfoWrap	framework/wrap/PvpInfoWrap.py	/^class PvpInfoWrap(Wrapper):$/;"	c
+PvpRankWrap	framework/wrap/PvpRankWrap.py	/^class PvpRankWrap(Wrapper):$/;"	c
+PvpReportWrap	framework/wrap/PvpReportWrap.py	/^class PvpReportWrap(Wrapper):$/;"	c
+PvpRoundWrap	framework/wrap/PvpRoundWrap.py	/^class PvpRoundWrap(Wrapper):$/;"	c
+RuneWrap	framework/wrap/RuneWrap.py	/^class RuneWrap(Wrapper):$/;"	c
+SDevice	framework/SDevice.py	/^class SDevice(object):$/;"	c
+SECOND_MILLS	util/TimerUtil.py	/^    SECOND_MILLS = 1000L;$/;"	v	class:TimerUtil
+SHORT	framework/Packet.py	/^    SHORT = [2, 2, 'h']$/;"	v	class:Packet
+SProcess	framework/SProcess.py	/^class SProcess(threading.Thread):$/;"	c
+STRING	framework/Packet.py	/^    STRING = [8, 0, 's']$/;"	v	class:Packet
+ServerFactory	framework/factory/ServerFactory.py	/^class ServerFactory(Factory):$/;"	c
+Service	framework/Service.py	/^class Service(object):$/;"	c
+ShopWrap	framework/wrap/ShopWrap.py	/^class ShopWrap(Wrapper):$/;"	c
+SignWrap	framework/wrap/SignWrap.py	/^class SignWrap(Wrapper):$/;"	c
+SysConfig	util/SysConfig.py	/^class SysConfig(object):$/;"	c
+TaskWrap	framework/wrap/TaskWrap.py	/^class TaskWrap(Wrapper):$/;"	c
+TeamWrap	framework/wrap/TeamWrap.py	/^class TeamWrap(Wrapper):$/;"	c
+TimerService	main/services/TimerService.py	/^class TimerService(Service):$/;"	c
+TimerUtil	util/TimerUtil.py	/^class TimerUtil(object):$/;"	c
+WorkLoading	framework/WorkLoading.py	/^class WorkLoading(object):$/;"	c
+WorkProc	main/process/WorkProc.py	/^class WorkProc(SProcess):$/;"	c
+Wrapper	framework/wrap/base/Wrapper.py	/^class Wrapper(object):$/;"	c
+__init__	framework/Command.py	/^    def __init__(self,opcode):$/;"	m	class:Command
+__init__	framework/Packet.py	/^    def __init__(self):$/;"	m	class:Packet
+__init__	framework/SDevice.py	/^    def __init__(self):$/;"	m	class:SDevice
+__init__	framework/SProcess.py	/^    def __init__(self):$/;"	m	class:SProcess
+__init__	framework/Service.py	/^    def __init__(self):$/;"	m	class:Service
+__init__	framework/WorkLoading.py	/^    def __init__(self, startTime):$/;"	m	class:WorkLoading
+__init__	framework/factory/ServerFactory.py	/^    def __init__(self,mainDev):$/;"	m	class:ServerFactory
+__init__	framework/handler/IoHander.py	/^    def __init__(self, factory):$/;"	m	class:IoHander
+__init__	framework/timer/Action.py	/^    def __init__(self):$/;"	m	class:Action
+__init__	framework/timer/PeriodicTimer.py	/^    def __init__(self, period):$/;"	m	class:PeriodicTimer
+__init__	framework/wrap/base/Wrapper.py	/^    def __init__(self):$/;"	m	class:Wrapper
+__init__	lib/Browser.py	/^    def __init__(self):$/;"	m	class:Browser
+__init__	lib/Mail.py	/^    def __init__(self, uid, sub, content):$/;"	m	class:MailD
+__init__	lib/Mail.py	/^    def __init__(self, username, password):$/;"	m	class:Mail
+__init__	lib/MyLog.py	/^    def __init__(self,classname,logname="app"):$/;"	m	class:MyLog
+__init__	lib/Mysql.py	/^    def __init__(self, host, port, user, pwd, db, charset):$/;"	m	class:Mysql
+__init__	lib/Network.py	/^    def __init__(self, url):$/;"	m	class:Network
+__init__	main/MainDev.py	/^    def __init__(self):$/;"	m	class:MainDev
+__init__	main/process/MailProc.py	/^    def __init__(self,mainDev):$/;"	m	class:MailProc
+__init__	main/process/MainProc.py	/^    def __init__(self, mainDev):$/;"	m	class:MainProc
+__init__	main/process/WorkProc.py	/^    def __init__(self, mainDev):$/;"	m	class:WorkProc
+__init__	main/services/CheckService.py	/^    def __init__(self, proc):$/;"	m	class:CheckService
+__init__	main/services/MailService.py	/^    def __init__(self, proc):$/;"	m	class:MailService
+__init__	main/services/MainService.py	/^    def __init__(self, proc):$/;"	m	class:MainService
+__init__	main/services/TimerService.py	/^    def __init__(self, proc):$/;"	m	class:TimerService
+__init__	main/timer/MonitorAction.py	/^    def __init__(self, proc):$/;"	m	class:MonitorAction
+__init__	public/AppQueue.py	/^    def __init__(self,params):$/;"	m	class:AppQueue
+__init__	util/SysConfig.py	/^    def __init__(self):$/;"	m	class:SysConfig
+__init__	util/TimerUtil.py	/^    def __init__(self):$/;"	m	class:TimerUtil
+_actions	main/services/TimerService.py	/^    _actions = []$/;"	v	class:TimerService
+_beforeAdd	framework/Packet.py	/^    def _beforeAdd(self):$/;"	m	class:Packet
+_browser	main/process/WorkProc.py	/^    _browser = None$/;"	v	class:WorkProc
+_buffer	framework/Packet.py	/^    _buffer = None$/;"	v	class:Packet
+_check_service	main/process/WorkProc.py	/^    _check_service = None$/;"	v	class:WorkProc
+_clients	framework/factory/ServerFactory.py	/^    _clients = None$/;"	v	class:ServerFactory
+_content	lib/Mail.py	/^    _content = None$/;"	v	class:MailD
+_db	main/MainDev.py	/^    _db = None$/;"	v	class:MainDev
+_delayTime	framework/WorkLoading.py	/^    _delayTime = 0$/;"	v	class:WorkLoading
+_delayTimes	framework/WorkLoading.py	/^    _delayTimes = 0$/;"	v	class:WorkLoading
+_expire_time	framework/timer/PeriodicTimer.py	/^    _expire_time = 0$/;"	v	class:PeriodicTimer
+_factory	framework/handler/IoHander.py	/^    _factory = None$/;"	v	class:IoHander
+_http_send	lib/Network.py	/^    def _http_send(self, method, url_path, ec_params):$/;"	m	class:Network
+_https_send	lib/Network.py	/^    def _https_send(self, method, url_path, ec_params):$/;"	m	class:Network
+_index	main/process/MailProc.py	/^    _index = None$/;"	v	class:MailProc
+_interval	framework/SProcess.py	/^    _interval = None$/;"	v	class:SProcess
+_logger	framework/SProcess.py	/^    _logger = None$/;"	v	class:SProcess
+_logger	framework/factory/ServerFactory.py	/^    _logger = None$/;"	v	class:ServerFactory
+_logger	framework/handler/IoHander.py	/^    _logger = None$/;"	v	class:IoHander
+_logger	main/MainDev.py	/^    _logger = None$/;"	v	class:MainDev
+_logger	main/process/MailProc.py	/^    _logger = None$/;"	v	class:MailProc
+_logger	main/process/MainProc.py	/^    _logger = None$/;"	v	class:MainProc
+_logger	main/process/WorkProc.py	/^    _logger = None$/;"	v	class:WorkProc
+_logger	main/services/CheckService.py	/^    _logger = None$/;"	v	class:CheckService
+_logger	main/services/MailService.py	/^    _logger = None$/;"	v	class:MailService
+_logger	main/services/MainService.py	/^    _logger = None$/;"	v	class:MainService
+_logger	main/services/TimerService.py	/^    _logger = None$/;"	v	class:TimerService
+_logger	main/timer/MonitorAction.py	/^    _logger = None$/;"	v	class:MonitorAction
+_mail	main/process/MailProc.py	/^    _mail = None$/;"	v	class:MailProc
+_mail_procs	main/MainDev.py	/^    _mail_procs = None$/;"	v	class:MainDev
+_mail_service	main/process/MailProc.py	/^    _mail_service = None$/;"	v	class:MailProc
+_main_dev	framework/factory/ServerFactory.py	/^    _main_dev = None$/;"	v	class:ServerFactory
+_main_dev	main/process/MailProc.py	/^    _main_dev = None$/;"	v	class:MailProc
+_main_dev	main/process/MainProc.py	/^    _main_dev = None$/;"	v	class:MainProc
+_main_dev	main/process/WorkProc.py	/^    _main_dev = None$/;"	v	class:WorkProc
+_main_proc	main/MainDev.py	/^    _main_proc = None$/;"	v	class:MainDev
+_main_service	main/process/MainProc.py	/^    _main_service = None$/;"	v	class:MainProc
+_maxDelayTime	framework/WorkLoading.py	/^    _maxDelayTime = 0$/;"	v	class:WorkLoading
+_mk_send_data	lib/Network.py	/^    def _mk_send_data(self, params):$/;"	m	class:Network
+_mode	framework/Packet.py	/^    _mode = None$/;"	v	class:Packet
+_mutex	main/process/WorkProc.py	/^    _mutex = threading.Lock()$/;"	v	class:WorkProc
+_opcode	framework/Command.py	/^    _opcode = None$/;"	v	class:Command
+_pack	framework/Command.py	/^    _pack = None$/;"	v	class:Command
+_password	lib/Mail.py	/^    _password = None$/;"	v	class:Mail
+_period	framework/timer/PeriodicTimer.py	/^    _period = 0$/;"	v	class:PeriodicTimer
+_position	framework/Packet.py	/^    _position = None$/;"	v	class:Packet
+_process	main/services/CheckService.py	/^    _process = None$/;"	v	class:CheckService
+_process	main/services/MailService.py	/^    _process = None$/;"	v	class:MailService
+_process	main/services/MainService.py	/^    _process = None$/;"	v	class:MainService
+_process	main/services/TimerService.py	/^    _process = None$/;"	v	class:TimerService
+_process	main/timer/MonitorAction.py	/^    _process = None$/;"	v	class:MonitorAction
+_processList	framework/SDevice.py	/^    _processList = [];$/;"	v	class:SDevice
+_receiver	lib/Mail.py	/^    _receiver = None$/;"	v	class:Mail
+_receiver	lib/Mail.py	/^    _receiver = None$/;"	v	class:MailD
+_running	framework/SProcess.py	/^    _running = None$/;"	v	class:SProcess
+_sender	lib/Mail.py	/^    _sender = None$/;"	v	class:Mail
+_services	framework/SProcess.py	/^    _services = None$/;"	v	class:SProcess
+_sid	framework/Command.py	/^    _sid = None$/;"	v	class:Command
+_sid	framework/handler/IoHander.py	/^    _sid = None$/;"	v	class:IoHander
+_smpt_server	lib/Mail.py	/^    _smpt_server = None$/;"	v	class:Mail
+_smtp	lib/Mail.py	/^    _smtp = None$/;"	v	class:Mail
+_subject	lib/Mail.py	/^    _subject = None$/;"	v	class:Mail
+_subject	lib/Mail.py	/^    _subject = None$/;"	v	class:MailD
+_time_service	main/process/MailProc.py	/^    _time_service = None$/;"	v	class:MailProc
+_timer	main/timer/MonitorAction.py	/^    _timer = None$/;"	v	class:MonitorAction
+_timer_service	main/process/MainProc.py	/^    _timer_service = None$/;"	v	class:MainProc
+_totalTimes	framework/WorkLoading.py	/^    _totalTimes = 0$/;"	v	class:WorkLoading
+_types	framework/Packet.py	/^    _types = None$/;"	v	class:Packet
+_uid	lib/Mail.py	/^    _uid = None$/;"	v	class:MailD
+_url	lib/Network.py	/^    _url =""$/;"	v	class:Network
+_user_name	lib/Mail.py	/^    _user_name = None$/;"	v	class:Mail
+_workLoading	framework/SProcess.py	/^    _workLoading = None$/;"	v	class:SProcess
+_workTime	framework/WorkLoading.py	/^    _workTime = 0$/;"	v	class:WorkLoading
+_work_procs	main/MainDev.py	/^    _work_procs = None$/;"	v	class:MainDev
+aPlayerRank	framework/wrap/BossBonusWrap.py	/^    aPlayerRank = None #单个玩家排名$/;"	v	class:BossBonusWrap
+aPlayerToBossHurt	framework/wrap/BossBonusWrap.py	/^    aPlayerToBossHurt = None #单个玩家对boss的累计伤害$/;"	v	class:BossBonusWrap
+accountWrap	framework/wrap/FullPlayerWrap.py	/^    accountWrap = None #账户信息$/;"	v	class:FullPlayerWrap
+active	framework/wrap/GuildMemberWrap.py	/^    active = []$/;"	v	class:GuildMemberWrap
+active	framework/wrap/GuildWrap.py	/^    active = None #活跃度$/;"	v	class:GuildWrap
+activity	framework/wrap/GActivityWrap.py	/^    activity = []$/;"	v	class:GActivityWrap
+activity	framework/wrap/PlayerWrap.py	/^    activity = []$/;"	v	class:PlayerWrap
+activity_uid	framework/wrap/PActivityWrap.py	/^    activity_uid = None #任务UID$/;"	v	class:PActivityWrap
+actorStatusWrapList	framework/wrap/PvpRoundWrap.py	/^    actorStatusWrapList = []$/;"	v	class:PvpRoundWrap
+addAction	main/services/TimerService.py	/^    def addAction(self, action):$/;"	m	class:TimerService
+addBool	framework/Packet.py	/^    def addBool(self, b):$/;"	m	class:Packet
+addBytes	framework/Packet.py	/^    def addBytes(self, b):$/;"	m	class:Packet
+addDouble	framework/Packet.py	/^    def addDouble(self, d):$/;"	m	class:Packet
+addFloat	framework/Packet.py	/^    def addFloat(self, f):$/;"	m	class:Packet
+addInt	framework/Packet.py	/^    def addInt(self, i):$/;"	m	class:Packet
+addLong	framework/Packet.py	/^    def addLong(self, l):$/;"	m	class:Packet
+addNewSession	framework/factory/ServerFactory.py	/^    def addNewSession(self,sid,IoHander):$/;"	m	class:ServerFactory
+addProcess	framework/SDevice.py	/^    def addProcess(self, process, interval):$/;"	m	class:SDevice
+addReceiver	lib/Mail.py	/^    def addReceiver(self, receiver):$/;"	m	class:MailD
+addShort	framework/Packet.py	/^    def addShort(self, h):$/;"	m	class:Packet
+addString	framework/Packet.py	/^    def addString(self, s):$/;"	m	class:Packet
+addlLong	framework/Packet.py	/^    def addlLong(self, ll):$/;"	m	class:Packet
+allClosed	framework/SDevice.py	/^    def allClosed(self):$/;"	m	class:SDevice
+applyForGuilds	framework/wrap/PGuildWrap.py	/^    applyForGuilds = []$/;"	v	class:PGuildWrap
+appraisal	framework/wrap/PveWrap.py	/^    appraisal = None #关卡过关得分,为0表示未通过此关卡$/;"	v	class:PveWrap
+armorPercent	framework/wrap/PvpActorStatusWrap.py	/^    armorPercent = None #剩余护甲百分比(保留)$/;"	v	class:PvpActorStatusWrap
+attackCount	framework/wrap/BossWrap.py	/^    attackCount = None #攻击次数$/;"	v	class:BossWrap
+attrId	framework/wrap/EquipAttrWrap.py	/^    attrId = None #属性Id$/;"	v	class:EquipAttrWrap
+awardCoin	framework/wrap/GuildMemberWrap.py	/^    awardCoin = None #收获金币数量$/;"	v	class:GuildMemberWrap
+awardHeroExist	framework/wrap/GachaResultWrap.py	/^    awardHeroExist = None #抽到的英雄是否存在（true为存在，需要分解）$/;"	v	class:GachaResultWrap
+awardHeroId	framework/wrap/BuildRankWrap.py	/^    awardHeroId = None #建造获取的英雄id$/;"	v	class:BuildRankWrap
+awardHeroId	framework/wrap/BuildWrap.py	/^    awardHeroId = None #建造获得的英雄id(没建造完不发送给客户端)$/;"	v	class:BuildWrap
+awardItemId	framework/wrap/BuildRankWrap.py	/^    awardItemId = None #建造获取物品的id$/;"	v	class:BuildRankWrap
+awardItemId	framework/wrap/BuildWrap.py	/^    awardItemId = None #建造获得物品的id(没建造完不发送给客户端)$/;"	v	class:BuildWrap
+b	lib/Browser.py	/^    b = Browser()$/;"	v	class:Browser
+bonusWrap	framework/wrap/BossBonusWrap.py	/^    bonusWrap = None #单个玩家获得的奖励$/;"	v	class:BossBonusWrap
+boostLv	framework/wrap/BossWrap.py	/^    boostLv = None #鼓舞等级$/;"	v	class:BossWrap
+bossHP	framework/wrap/BossBattleReport.py	/^    bossHP = None #boss战斗前的血量$/;"	v	class:BossBattleReport
+bossHP	framework/wrap/BossWrap.py	/^    bossHP = None #boss血量$/;"	v	class:BossWrap
+bossLv	framework/wrap/BossBonusWrap.py	/^    bossLv = None #boss等级$/;"	v	class:BossBonusWrap
+bossLv	framework/wrap/BossWrap.py	/^    bossLv = None #boss等级$/;"	v	class:BossWrap
+bossStarted	framework/wrap/BossWrap.py	/^    bossStarted = None #boss是否开启$/;"	v	class:BossWrap
+bossUID	framework/wrap/BossBattleReport.py	/^    bossUID = None #bossUID$/;"	v	class:BossBattleReport
+buildEndTime	framework/wrap/BuildWrap.py	/^    buildEndTime = None #建造倒计时(单位秒，为-1表示为建造，0表示建造完成)$/;"	v	class:BuildWrap
+buildProtocol	framework/factory/ServerFactory.py	/^    def buildProtocol(self, addr):$/;"	m	class:ServerFactory
+call	framework/timer/Action.py	/^    def call(self):$/;"	m	class:Action
+call	main/timer/MonitorAction.py	/^    def call(self): $/;"	m	class:MonitorAction
+channelId	framework/wrap/MessageWrap.py	/^    channelId = None #频道Id$/;"	v	class:MessageWrap
+chat	framework/wrap/PlayerWrap.py	/^    chat = None #聊天信息$/;"	v	class:PlayerWrap
+chatTimes	framework/wrap/PChatWrap.py	/^    chatTimes = None #当天聊天次数$/;"	v	class:PChatWrap
+checkData	main/process/WorkProc.py	/^    def checkData(self,numiid):$/;"	m	class:WorkProc
+close	framework/SDevice.py	/^    def close(self):$/;"	m	class:SDevice
+close	framework/SProcess.py	/^    def close(self):$/;"	m	class:SProcess
+close	framework/Service.py	/^    def close(self):$/;"	m	class:Service
+close	lib/Mysql.py	/^    def close(self):$/;"	m	class:Mysql
+close	main/MainDev.py	/^    def close(self):$/;"	m	class:MainDev
+close	main/services/CheckService.py	/^    def close(self):$/;"	m	class:CheckService
+close	main/services/MailService.py	/^    def close(self):$/;"	m	class:MailService
+close	main/services/MainService.py	/^    def close(self):$/;"	m	class:MainService
+close	main/services/TimerService.py	/^    def close(self):$/;"	m	class:TimerService
+cmdQueue	public/AppQueue.py	/^    cmdQueue = Queue.Queue()$/;"	v	class:AppQueue
+commit	lib/Mysql.py	/^    def commit(self):$/;"	m	class:Mysql
+commodityWraps	framework/wrap/ShopWrap.py	/^    commodityWraps = []$/;"	v	class:ShopWrap
+condition	framework/wrap/ActivityWrap.py	/^    condition = None #完成条件$/;"	v	class:ActivityWrap
+config	util/SysConfig.py	/^    config = ""$/;"	v	class:SysConfig
+connect	lib/Mail.py	/^    def connect(self):$/;"	m	class:Mail
+connectionLost	framework/handler/IoHander.py	/^    def connectionLost(self, reason):$/;"	m	class:IoHander
+connectionMade	framework/handler/IoHander.py	/^    def connectionMade(self):$/;"	m	class:IoHander
+content	framework/wrap/GActivityWrap.py	/^    content = None #活动内容$/;"	v	class:GActivityWrap
+content	framework/wrap/MailWrap.py	/^    content = None #内容$/;"	v	class:MailWrap
+content	framework/wrap/MessageWrap.py	/^    content = None #内容$/;"	v	class:MessageWrap
+content	framework/wrap/NoticeWrap.py	/^    content = None #内容$/;"	v	class:NoticeWrap
+continueTime	framework/wrap/NoticeWrap.py	/^    continueTime = None #停留时间（秒）$/;"	v	class:NoticeWrap
+createTime	framework/wrap/GuildMemberWrap.py	/^    createTime = None #创建世时间$/;"	v	class:GuildMemberWrap
+createTime	framework/wrap/GuildWrap.py	/^    createTime = None #公会创建时间$/;"	v	class:GuildWrap
+createTime	framework/wrap/HeroWrap.py	/^    createTime = None #创建时间$/;"	v	class:HeroWrap
+dailyCount	framework/wrap/PveGroupWrap.py	/^    dailyCount = None #当天挑战次数$/;"	v	class:PveGroupWrap
+dailyCount	framework/wrap/PveWrap.py	/^    dailyCount = None #当天挑战次数$/;"	v	class:PveWrap
+damage	framework/wrap/BossDamWrap.py	/^    damage = None #伤害$/;"	v	class:BossDamWrap
+damage	framework/wrap/BossWrap.py	/^    damage = None #造成的伤害$/;"	v	class:BossWrap
+dataReceived	framework/handler/IoHander.py	/^    def dataReceived(self, data):$/;"	m	class:IoHander
+days	framework/wrap/SignWrap.py	/^    days = None #签到的天数$/;"	v	class:SignWrap
+debug	lib/MyLog.py	/^    def debug(self,message):$/;"	m	class:MyLog
+declaration	framework/wrap/GuildWrap.py	/^    declaration = None #公会说明$/;"	v	class:GuildWrap
+decode	framework/wrap/AccountWrap.py	/^    def decode(self, pack):$/;"	m	class:AccountWrap
+decode	framework/wrap/ActiveWrap.py	/^    def decode(self, pack):$/;"	m	class:ActiveWrap
+decode	framework/wrap/ActivityWrap.py	/^    def decode(self, pack):$/;"	m	class:ActivityWrap
+decode	framework/wrap/BTHeroWrap.py	/^    def decode(self, pack):$/;"	m	class:BTHeroWrap
+decode	framework/wrap/BonusWrap.py	/^    def decode(self, pack):$/;"	m	class:BonusWrap
+decode	framework/wrap/BossBattleReport.py	/^    def decode(self, pack):$/;"	m	class:BossBattleReport
+decode	framework/wrap/BossBonusWrap.py	/^    def decode(self, pack):$/;"	m	class:BossBonusWrap
+decode	framework/wrap/BossDamWrap.py	/^    def decode(self, pack):$/;"	m	class:BossDamWrap
+decode	framework/wrap/BossWrap.py	/^    def decode(self, pack):$/;"	m	class:BossWrap
+decode	framework/wrap/BuildRankWrap.py	/^    def decode(self, pack):$/;"	m	class:BuildRankWrap
+decode	framework/wrap/BuildWrap.py	/^    def decode(self, pack):$/;"	m	class:BuildWrap
+decode	framework/wrap/CommodityWrap.py	/^    def decode(self, pack):$/;"	m	class:CommodityWrap
+decode	framework/wrap/EquipAttrWrap.py	/^    def decode(self, pack):$/;"	m	class:EquipAttrWrap
+decode	framework/wrap/FullPlayerWrap.py	/^    def decode(self, pack):$/;"	m	class:FullPlayerWrap
+decode	framework/wrap/GActivityWrap.py	/^    def decode(self, pack):$/;"	m	class:GActivityWrap
+decode	framework/wrap/GachaResultWrap.py	/^    def decode(self, pack):$/;"	m	class:GachaResultWrap
+decode	framework/wrap/GachaWrap.py	/^    def decode(self, pack):$/;"	m	class:GachaWrap
+decode	framework/wrap/GuildLogWrap.py	/^    def decode(self, pack):$/;"	m	class:GuildLogWrap
+decode	framework/wrap/GuildMemberWrap.py	/^    def decode(self, pack):$/;"	m	class:GuildMemberWrap
+decode	framework/wrap/GuildWrap.py	/^    def decode(self, pack):$/;"	m	class:GuildWrap
+decode	framework/wrap/HeroWrap.py	/^    def decode(self, pack):$/;"	m	class:HeroWrap
+decode	framework/wrap/ItemWrap.py	/^    def decode(self, pack):$/;"	m	class:ItemWrap
+decode	framework/wrap/MailWrap.py	/^    def decode(self, pack):$/;"	m	class:MailWrap
+decode	framework/wrap/MessageWrap.py	/^    def decode(self, pack):$/;"	m	class:MessageWrap
+decode	framework/wrap/MonsterBonusWrap.py	/^    def decode(self, pack):$/;"	m	class:MonsterBonusWrap
+decode	framework/wrap/NoticeWrap.py	/^    def decode(self, pack):$/;"	m	class:NoticeWrap
+decode	framework/wrap/PActivityWrap.py	/^    def decode(self, pack):$/;"	m	class:PActivityWrap
+decode	framework/wrap/PChatWrap.py	/^    def decode(self, pack):$/;"	m	class:PChatWrap
+decode	framework/wrap/PGuildWrap.py	/^    def decode(self, pack):$/;"	m	class:PGuildWrap
+decode	framework/wrap/PSignWrap.py	/^    def decode(self, pack):$/;"	m	class:PSignWrap
+decode	framework/wrap/PlayerWrap.py	/^    def decode(self, pack):$/;"	m	class:PlayerWrap
+decode	framework/wrap/PveFriendInfoWrap.py	/^    def decode(self, pack):$/;"	m	class:PveFriendInfoWrap
+decode	framework/wrap/PveGroupWrap.py	/^    def decode(self, pack):$/;"	m	class:PveGroupWrap
+decode	framework/wrap/PveWrap.py	/^    def decode(self, pack):$/;"	m	class:PveWrap
+decode	framework/wrap/PvpActorStatusWrap.py	/^    def decode(self, pack):$/;"	m	class:PvpActorStatusWrap
+decode	framework/wrap/PvpActorWrap.py	/^    def decode(self, pack):$/;"	m	class:PvpActorWrap
+decode	framework/wrap/PvpInfoWrap.py	/^    def decode(self, pack):$/;"	m	class:PvpInfoWrap
+decode	framework/wrap/PvpRankWrap.py	/^    def decode(self, pack):$/;"	m	class:PvpRankWrap
+decode	framework/wrap/PvpReportWrap.py	/^    def decode(self, pack):$/;"	m	class:PvpReportWrap
+decode	framework/wrap/PvpRoundWrap.py	/^    def decode(self, pack):$/;"	m	class:PvpRoundWrap
+decode	framework/wrap/RuneWrap.py	/^    def decode(self, pack):$/;"	m	class:RuneWrap
+decode	framework/wrap/ShopWrap.py	/^    def decode(self, pack):$/;"	m	class:ShopWrap
+decode	framework/wrap/SignWrap.py	/^    def decode(self, pack):$/;"	m	class:SignWrap
+decode	framework/wrap/TaskWrap.py	/^    def decode(self, pack):$/;"	m	class:TaskWrap
+decode	framework/wrap/TeamWrap.py	/^    def decode(self, pack):$/;"	m	class:TeamWrap
+decode	framework/wrap/base/Wrapper.py	/^    def decode(self,pack):$/;"	m	class:Wrapper
+dump	framework/wrap/GuildWrap.py	/^    dump = None #掉落插队$/;"	v	class:GuildWrap
+enabled	framework/wrap/GActivityWrap.py	/^    enabled = None #活动的状态$/;"	v	class:GActivityWrap
+encode	framework/wrap/AccountWrap.py	/^    def encode(self, pack):$/;"	m	class:AccountWrap
+encode	framework/wrap/ActiveWrap.py	/^    def encode(self, pack):$/;"	m	class:ActiveWrap
+encode	framework/wrap/ActivityWrap.py	/^    def encode(self, pack):$/;"	m	class:ActivityWrap
+encode	framework/wrap/BTHeroWrap.py	/^    def encode(self, pack):$/;"	m	class:BTHeroWrap
+encode	framework/wrap/BonusWrap.py	/^    def encode(self, pack):$/;"	m	class:BonusWrap
+encode	framework/wrap/BossBattleReport.py	/^    def encode(self, pack):$/;"	m	class:BossBattleReport
+encode	framework/wrap/BossBonusWrap.py	/^    def encode(self, pack):$/;"	m	class:BossBonusWrap
+encode	framework/wrap/BossDamWrap.py	/^    def encode(self, pack):$/;"	m	class:BossDamWrap
+encode	framework/wrap/BossWrap.py	/^    def encode(self, pack):$/;"	m	class:BossWrap
+encode	framework/wrap/BuildRankWrap.py	/^    def encode(self, pack):$/;"	m	class:BuildRankWrap
+encode	framework/wrap/BuildWrap.py	/^    def encode(self, pack):$/;"	m	class:BuildWrap
+encode	framework/wrap/CommodityWrap.py	/^    def encode(self, pack):$/;"	m	class:CommodityWrap
+encode	framework/wrap/EquipAttrWrap.py	/^    def encode(self, pack):$/;"	m	class:EquipAttrWrap
+encode	framework/wrap/FullPlayerWrap.py	/^    def encode(self, pack):$/;"	m	class:FullPlayerWrap
+encode	framework/wrap/GActivityWrap.py	/^    def encode(self, pack):$/;"	m	class:GActivityWrap
+encode	framework/wrap/GachaResultWrap.py	/^    def encode(self, pack):$/;"	m	class:GachaResultWrap
+encode	framework/wrap/GachaWrap.py	/^    def encode(self, pack):$/;"	m	class:GachaWrap
+encode	framework/wrap/GuildLogWrap.py	/^    def encode(self, pack):$/;"	m	class:GuildLogWrap
+encode	framework/wrap/GuildMemberWrap.py	/^    def encode(self, pack):$/;"	m	class:GuildMemberWrap
+encode	framework/wrap/GuildWrap.py	/^    def encode(self, pack):$/;"	m	class:GuildWrap
+encode	framework/wrap/HeroWrap.py	/^    def encode(self, pack):$/;"	m	class:HeroWrap
+encode	framework/wrap/ItemWrap.py	/^    def encode(self, pack):$/;"	m	class:ItemWrap
+encode	framework/wrap/MailWrap.py	/^    def encode(self, pack):$/;"	m	class:MailWrap
+encode	framework/wrap/MessageWrap.py	/^    def encode(self, pack):$/;"	m	class:MessageWrap
+encode	framework/wrap/MonsterBonusWrap.py	/^    def encode(self, pack):$/;"	m	class:MonsterBonusWrap
+encode	framework/wrap/NoticeWrap.py	/^    def encode(self, pack):$/;"	m	class:NoticeWrap
+encode	framework/wrap/PActivityWrap.py	/^    def encode(self, pack):$/;"	m	class:PActivityWrap
+encode	framework/wrap/PChatWrap.py	/^    def encode(self, pack):$/;"	m	class:PChatWrap
+encode	framework/wrap/PGuildWrap.py	/^    def encode(self, pack):$/;"	m	class:PGuildWrap
+encode	framework/wrap/PSignWrap.py	/^    def encode(self, pack):$/;"	m	class:PSignWrap
+encode	framework/wrap/PlayerWrap.py	/^    def encode(self, pack):$/;"	m	class:PlayerWrap
+encode	framework/wrap/PveFriendInfoWrap.py	/^    def encode(self, pack):$/;"	m	class:PveFriendInfoWrap
+encode	framework/wrap/PveGroupWrap.py	/^    def encode(self, pack):$/;"	m	class:PveGroupWrap
+encode	framework/wrap/PveWrap.py	/^    def encode(self, pack):$/;"	m	class:PveWrap
+encode	framework/wrap/PvpActorStatusWrap.py	/^    def encode(self, pack):$/;"	m	class:PvpActorStatusWrap
+encode	framework/wrap/PvpActorWrap.py	/^    def encode(self, pack):$/;"	m	class:PvpActorWrap
+encode	framework/wrap/PvpInfoWrap.py	/^    def encode(self, pack):$/;"	m	class:PvpInfoWrap
+encode	framework/wrap/PvpRankWrap.py	/^    def encode(self, pack):$/;"	m	class:PvpRankWrap
+encode	framework/wrap/PvpReportWrap.py	/^    def encode(self, pack):$/;"	m	class:PvpReportWrap
+encode	framework/wrap/PvpRoundWrap.py	/^    def encode(self, pack):$/;"	m	class:PvpRoundWrap
+encode	framework/wrap/RuneWrap.py	/^    def encode(self, pack):$/;"	m	class:RuneWrap
+encode	framework/wrap/ShopWrap.py	/^    def encode(self, pack):$/;"	m	class:ShopWrap
+encode	framework/wrap/SignWrap.py	/^    def encode(self, pack):$/;"	m	class:SignWrap
+encode	framework/wrap/TaskWrap.py	/^    def encode(self, pack):$/;"	m	class:TaskWrap
+encode	framework/wrap/TeamWrap.py	/^    def encode(self, pack):$/;"	m	class:TeamWrap
+encode	framework/wrap/base/Wrapper.py	/^    def encode(self,pack):$/;"	m	class:Wrapper
+endTime	framework/wrap/GActivityWrap.py	/^    endTime = None #结束时间$/;"	v	class:GActivityWrap
+endTime	framework/wrap/ShopWrap.py	/^    endTime = None #商店结束时间(s)$/;"	v	class:ShopWrap
+equipExps	framework/wrap/HeroWrap.py	/^    equipExps = []$/;"	v	class:HeroWrap
+equipIDs	framework/wrap/HeroWrap.py	/^    equipIDs = []$/;"	v	class:HeroWrap
+equipRndId	framework/wrap/EquipAttrWrap.py	/^    equipRndId = None #HeroEquipRandConfig中的ID$/;"	v	class:EquipAttrWrap
+error	lib/MyLog.py	/^    def error(self,message):$/;"	m	class:MyLog
+exp	framework/wrap/RuneWrap.py	/^    exp = None #符文经验$/;"	v	class:RuneWrap
+fightValue	framework/wrap/PvpRankWrap.py	/^    fightValue = None #战斗力$/;"	v	class:PvpRankWrap
+figureID	framework/wrap/BossDamWrap.py	/^    figureID = None #形象ID$/;"	v	class:BossDamWrap
+figureId	framework/wrap/BTHeroWrap.py	/^    figureId = None #形象ID$/;"	v	class:BTHeroWrap
+finished	framework/wrap/PActivityWrap.py	/^    finished = None #是否完成$/;"	v	class:PActivityWrap
+finished	framework/wrap/TaskWrap.py	/^    finished = None #是否已领取$/;"	v	class:TaskWrap
+flip	framework/Packet.py	/^    def flip(self):$/;"	m	class:Packet
+freeTimesToday	framework/wrap/GachaWrap.py	/^    freeTimesToday = None #当天免费抽取次数$/;"	v	class:GachaWrap
+friendIcon	framework/wrap/PveFriendInfoWrap.py	/^    friendIcon = []$/;"	v	class:PveFriendInfoWrap
+friendLevel	framework/wrap/PveFriendInfoWrap.py	/^    friendLevel = []$/;"	v	class:PveFriendInfoWrap
+friendName	framework/wrap/PveFriendInfoWrap.py	/^    friendName = []$/;"	v	class:PveFriendInfoWrap
+gActivityUid	framework/wrap/ActivityWrap.py	/^    gActivityUid = None #活动组UID$/;"	v	class:ActivityWrap
+gachaId	framework/wrap/GachaWrap.py	/^    gachaId = None #gachaId$/;"	v	class:GachaWrap
+gachaWraps	framework/wrap/FullPlayerWrap.py	/^    gachaWraps = []$/;"	v	class:FullPlayerWrap
+getBuffer	framework/Packet.py	/^    def getBuffer(self):$/;"	m	class:Packet
+getClients	framework/factory/ServerFactory.py	/^    def getClients(self):$/;"	m	class:ServerFactory
+getContent	lib/Mail.py	/^    def getContent(self):$/;"	m	class:MailD
+getDb	main/MainDev.py	/^    def getDb(self):$/;"	m	class:MainDev
+getDelayTimeValue	framework/WorkLoading.py	/^    def getDelayTimeValue(self):$/;"	m	class:WorkLoading
+getFactory	main/MainDev.py	/^    def getFactory(self):$/;"	m	class:MainDev
+getIndex	main/process/MailProc.py	/^    def getIndex(self):$/;"	m	class:MailProc
+getMail	main/process/MailProc.py	/^    def getMail(self):$/;"	m	class:MailProc
+getMainDev	framework/factory/ServerFactory.py	/^    def getMainDev(self):$/;"	m	class:ServerFactory
+getMainDev	main/process/MainProc.py	/^    def getMainDev(self):$/;"	m	class:MainProc
+getMainDev	main/process/WorkProc.py	/^    def getMainDev(self):$/;"	m	class:WorkProc
+getMainProc	main/MainDev.py	/^    def getMainProc(self):$/;"	m	class:MainDev
+getPeriod	framework/timer/PeriodicTimer.py	/^    def getPeriod(self):$/;"	m	class:PeriodicTimer
+getProcessCount	framework/SDevice.py	/^    def getProcessCount(self):$/;"	m	class:SDevice
+getReceiver	lib/Mail.py	/^    def getReceiver(self):$/;"	m	class:MailD
+getRedis	main/MainDev.py	/^    def getRedis(self):$/;"	m	class:MainDev
+getSession	framework/factory/ServerFactory.py	/^    def getSession(self,sid):$/;"	m	class:ServerFactory
+getSid	framework/Command.py	/^    def getSid(self):$/;"	m	class:Command
+getSid	framework/handler/IoHander.py	/^    def getSid(self):$/;"	m	class:IoHander
+getSubject	lib/Mail.py	/^    def getSubject(self):$/;"	m	class:MailD
+getUid	lib/Mail.py	/^    def getUid(self):$/;"	m	class:MailD
+getValue	framework/wrap/base/Wrapper.py	/^    def getValue(self):$/;"	m	class:Wrapper
+getWorkTime	framework/WorkLoading.py	/^    def getWorkTime(self):$/;"	m	class:WorkLoading
+getpack	framework/Command.py	/^    def getpack(self):$/;"	m	class:Command
+gmName	framework/wrap/GActivityWrap.py	/^    gmName = None #gm$/;"	v	class:GActivityWrap
+goldBoostCount	framework/wrap/BossWrap.py	/^    goldBoostCount = None #钻石鼓舞次数$/;"	v	class:BossWrap
+grade	framework/wrap/HeroWrap.py	/^    grade = None #品阶$/;"	v	class:HeroWrap
+grade	framework/wrap/PvpInfoWrap.py	/^    grade = None #段位$/;"	v	class:PvpInfoWrap
+grade	framework/wrap/PvpRankWrap.py	/^    grade = None #段位$/;"	v	class:PvpRankWrap
+groupId	framework/wrap/PveGroupWrap.py	/^    groupId = None #PveGroupId$/;"	v	class:PveGroupWrap
+guild	framework/wrap/PlayerWrap.py	/^    guild = None #工会信息$/;"	v	class:PlayerWrap
+guildIUid	framework/wrap/GuildMemberWrap.py	/^    guildIUid = None #工会UID$/;"	v	class:GuildMemberWrap
+guildMoney	framework/wrap/PGuildWrap.py	/^    guildMoney = None #公会货币$/;"	v	class:PGuildWrap
+guildStatus	framework/wrap/PGuildWrap.py	/^    guildStatus = None #公会状态$/;"	v	class:PGuildWrap
+guildUID	framework/wrap/MessageWrap.py	/^    guildUID = None #工会UID$/;"	v	class:MessageWrap
+guildUid	framework/wrap/PGuildWrap.py	/^    guildUid = None #公会UID$/;"	v	class:PGuildWrap
+gunId	framework/wrap/BTHeroWrap.py	/^    gunId = None #装备的枪ID$/;"	v	class:BTHeroWrap
+gunPropIds	framework/wrap/BTHeroWrap.py	/^    gunPropIds = []$/;"	v	class:BTHeroWrap
+gunPropValues	framework/wrap/BTHeroWrap.py	/^    gunPropValues = []$/;"	v	class:BTHeroWrap
+heroExp	framework/wrap/HeroWrap.py	/^    heroExp = None #经验$/;"	v	class:HeroWrap
+heroId	framework/wrap/BTHeroWrap.py	/^    heroId = None #英雄ID$/;"	v	class:BTHeroWrap
+heroId	framework/wrap/GachaResultWrap.py	/^    heroId = None #抽到的英雄ID$/;"	v	class:GachaResultWrap
+heroId	framework/wrap/HeroWrap.py	/^    heroId = None #英雄ID$/;"	v	class:HeroWrap
+heroId	framework/wrap/PvpActorWrap.py	/^    heroId = None #英雄ID(暂用DemoHeroConfig中的id)$/;"	v	class:PvpActorWrap
+heroLv	framework/wrap/BTHeroWrap.py	/^    heroLv = None #等级$/;"	v	class:BTHeroWrap
+heroUid	framework/wrap/PvpActorStatusWrap.py	/^    heroUid = None #英雄UID$/;"	v	class:PvpActorStatusWrap
+heroUid	framework/wrap/PvpActorWrap.py	/^    heroUid = None #英雄UID$/;"	v	class:PvpActorWrap
+heroWraps	framework/wrap/FullPlayerWrap.py	/^    heroWraps = []$/;"	v	class:FullPlayerWrap
+heroWraps	framework/wrap/PvpRankWrap.py	/^    heroWraps = []$/;"	v	class:PvpRankWrap
+heros	framework/wrap/TeamWrap.py	/^    heros = []$/;"	v	class:TeamWrap
+historyActive	framework/wrap/GuildWrap.py	/^    historyActive = None #活跃度$/;"	v	class:GuildWrap
+hot	framework/wrap/GActivityWrap.py	/^    hot = None #热度$/;"	v	class:GActivityWrap
+hpPercent	framework/wrap/PvpActorStatusWrap.py	/^    hpPercent = None #剩余血量百分比(保留)$/;"	v	class:PvpActorStatusWrap
+icon	framework/wrap/GActivityWrap.py	/^    icon = None #活动图标$/;"	v	class:GActivityWrap
+icon	framework/wrap/GuildWrap.py	/^    icon = None #公会图标$/;"	v	class:GuildWrap
+icon	framework/wrap/MessageWrap.py	/^    icon = None #头像$/;"	v	class:MessageWrap
+icon	framework/wrap/PlayerWrap.py	/^    icon = None #头像$/;"	v	class:PlayerWrap
+id	framework/wrap/GuildWrap.py	/^    id = None #公会ID$/;"	v	class:GuildWrap
+idx	framework/wrap/RuneWrap.py	/^    idx = None #索引$/;"	v	class:RuneWrap
+inCondition	framework/wrap/GuildWrap.py	/^    inCondition = None #加入条件$/;"	v	class:GuildWrap
+inLevel	framework/wrap/GuildWrap.py	/^    inLevel = None #加入等级$/;"	v	class:GuildWrap
+index	framework/wrap/EquipAttrWrap.py	/^    index = None #索引$/;"	v	class:EquipAttrWrap
+insert	lib/Mysql.py	/^    def insert(self, sql):$/;"	m	class:Mysql
+instance	main/MainDev.py	/^    instance = None$/;"	v	class:MainDev
+isAttacker	framework/wrap/PvpActorWrap.py	/^    isAttacker = None #是否攻方（攻方初始在上面）$/;"	v	class:PvpActorWrap
+isDiscounts	framework/wrap/CommodityWrap.py	/^    isDiscounts = None #是否打折$/;"	v	class:CommodityWrap
+isLock	framework/wrap/CommodityWrap.py	/^    isLock = None #是否解锁$/;"	v	class:CommodityWrap
+isOld	framework/wrap/EquipAttrWrap.py	/^    isOld = None #是否是旧属性$/;"	v	class:EquipAttrWrap
+isOver	framework/timer/Action.py	/^    def isOver(self):$/;"	m	class:Action
+isOver	main/timer/MonitorAction.py	/^    def isOver(self):$/;"	m	class:MonitorAction
+isPaid	framework/wrap/GachaWrap.py	/^    isPaid = None #是否已付费首抽$/;"	v	class:GachaWrap
+isSell	framework/wrap/CommodityWrap.py	/^    isSell = None #是否售完$/;"	v	class:CommodityWrap
+isWin	framework/wrap/BossBattleReport.py	/^    isWin = None #是否击杀$/;"	v	class:BossBattleReport
+itemCount	framework/wrap/ActivityWrap.py	/^    itemCount = []$/;"	v	class:ActivityWrap
+itemCount	framework/wrap/BuildRankWrap.py	/^    itemCount = []$/;"	v	class:BuildRankWrap
+itemCount	framework/wrap/CommodityWrap.py	/^    itemCount = None #数量$/;"	v	class:CommodityWrap
+itemCount	framework/wrap/GachaResultWrap.py	/^    itemCount = None #道具数量,非道具为0$/;"	v	class:GachaResultWrap
+itemCount	framework/wrap/ItemWrap.py	/^    itemCount = None #道具数量$/;"	v	class:ItemWrap
+itemCounts	framework/wrap/BonusWrap.py	/^    itemCounts = []$/;"	v	class:BonusWrap
+itemCounts	framework/wrap/MailWrap.py	/^    itemCounts = []$/;"	v	class:MailWrap
+itemCounts	framework/wrap/MonsterBonusWrap.py	/^    itemCounts = []$/;"	v	class:MonsterBonusWrap
+itemCounts	framework/wrap/SignWrap.py	/^    itemCounts = []$/;"	v	class:SignWrap
+itemIDs	framework/wrap/MonsterBonusWrap.py	/^    itemIDs = []$/;"	v	class:MonsterBonusWrap
+itemIDs	framework/wrap/SignWrap.py	/^    itemIDs = []$/;"	v	class:SignWrap
+itemId	framework/wrap/ActivityWrap.py	/^    itemId = []$/;"	v	class:ActivityWrap
+itemId	framework/wrap/BuildRankWrap.py	/^    itemId = []$/;"	v	class:BuildRankWrap
+itemId	framework/wrap/CommodityWrap.py	/^    itemId = None #商品ID$/;"	v	class:CommodityWrap
+itemId	framework/wrap/GachaResultWrap.py	/^    itemId = None #道具ID,非道具为0$/;"	v	class:GachaResultWrap
+itemId	framework/wrap/ItemWrap.py	/^    itemId = None #道具ID$/;"	v	class:ItemWrap
+itemIds	framework/wrap/BonusWrap.py	/^    itemIds = []$/;"	v	class:BonusWrap
+itemIds	framework/wrap/MailWrap.py	/^    itemIds = []$/;"	v	class:MailWrap
+itemWraps	framework/wrap/FullPlayerWrap.py	/^    itemWraps = []$/;"	v	class:FullPlayerWrap
+joinGuildTimes	framework/wrap/PGuildWrap.py	/^    joinGuildTimes = None #加入公会$/;"	v	class:PGuildWrap
+killer	framework/wrap/BossWrap.py	/^    killer = None #击杀者信息$/;"	v	class:BossWrap
+killerName	framework/wrap/BossBonusWrap.py	/^    killerName = None #击杀boss的文件名称$/;"	v	class:BossBonusWrap
+lastBattleTime	framework/wrap/BossWrap.py	/^    lastBattleTime = None #上一次战斗的时间(ms)$/;"	v	class:BossWrap
+lastBoostTime	framework/wrap/BossWrap.py	/^    lastBoostTime = None #上一次金币鼓舞的时间(ms)$/;"	v	class:BossWrap
+lastChatTime	framework/wrap/PChatWrap.py	/^    lastChatTime = None #最后一次聊天时间$/;"	v	class:PChatWrap
+lastJoinGuildTime	framework/wrap/PGuildWrap.py	/^    lastJoinGuildTime = None #最后一次加入公会时间$/;"	v	class:PGuildWrap
+lastOutGuildTime	framework/wrap/PGuildWrap.py	/^    lastOutGuildTime = None #最后一次退出公会时间$/;"	v	class:PGuildWrap
+lastRefreshTime	framework/wrap/ItemWrap.py	/^    lastRefreshTime = None #上一次更新时间$/;"	v	class:ItemWrap
+lastResetTime	framework/wrap/PveWrap.py	/^    lastResetTime = None #最后一次重置时间$/;"	v	class:PveWrap
+lastRollTime	framework/wrap/GachaWrap.py	/^    lastRollTime = None #最后一次免费抽取的时间$/;"	v	class:GachaWrap
+lastTime	framework/wrap/PveGroupWrap.py	/^    lastTime = None #最后一次挑战时间$/;"	v	class:PveGroupWrap
+lastTime	framework/wrap/PveWrap.py	/^    lastTime = None #最后一次挑战时间$/;"	v	class:PveWrap
+last_time	framework/wrap/PActivityWrap.py	/^    last_time = None #最后一次更新时间$/;"	v	class:PActivityWrap
+levelId	framework/wrap/PveFriendInfoWrap.py	/^    levelId = None #关卡id$/;"	v	class:PveFriendInfoWrap
+load	util/SysConfig.py	/^    def load(configPacth):$/;"	m	class:SysConfig
+logInfo	framework/wrap/GuildLogWrap.py	/^    logInfo = None #log信息$/;"	v	class:GuildLogWrap
+login	lib/Mail.py	/^    def login(self):$/;"	m	class:Mail
+logs	framework/wrap/GuildWrap.py	/^    logs = []$/;"	v	class:GuildWrap
+lv	framework/wrap/MessageWrap.py	/^    lv = None #玩家等级$/;"	v	class:MessageWrap
+mailQueue	public/AppQueue.py	/^    mailQueue = Queue.Queue()$/;"	v	class:AppQueue
+mailWraps	framework/wrap/FullPlayerWrap.py	/^    mailWraps = []$/;"	v	class:FullPlayerWrap
+main	lib/Mail.py	/^def main():$/;"	f
+main	lib/Mysql.py	/^def main():$/;"	f
+main	main.py	/^def main():$/;"	f
+main	util/SysConfig.py	/^def main():$/;"	f
+main	util/TimerUtil.py	/^def main():$/;"	f
+maxMember	framework/wrap/GuildWrap.py	/^    maxMember = None #最大加入会员数$/;"	v	class:GuildWrap
+members	framework/wrap/GuildWrap.py	/^    members = []$/;"	v	class:GuildWrap
+millsToSecond	util/TimerUtil.py	/^    def millsToSecond(mills):$/;"	m	class:TimerUtil
+minuteToMills	util/TimerUtil.py	/^    def minuteToMills(minute):$/;"	m	class:TimerUtil
+monsterIdx	framework/wrap/MonsterBonusWrap.py	/^    monsterIdx = None #第几个怪(从0开始）$/;"	v	class:MonsterBonusWrap
+mutex	main/MainDev.py	/^    mutex = threading.Lock()$/;"	v	class:MainDev
+mutex	main/services/MailService.py	/^    mutex = threading.Lock()$/;"	v	class:MailService
+name	framework/wrap/AccountWrap.py	/^    name = None #账户名$/;"	v	class:AccountWrap
+name	framework/wrap/GuildWrap.py	/^    name = None #公会名称$/;"	v	class:GuildWrap
+name	framework/wrap/MessageWrap.py	/^    name = None #玩家名字$/;"	v	class:MessageWrap
+name	framework/wrap/PlayerWrap.py	/^    name = None #名字$/;"	v	class:PlayerWrap
+name	framework/wrap/PvpRankWrap.py	/^    name = None #角色名$/;"	v	class:PvpRankWrap
+noticeWraps	framework/wrap/FullPlayerWrap.py	/^    noticeWraps = []$/;"	v	class:FullPlayerWrap
+number	main/services/MainService.py	/^    number = 0$/;"	v	class:MainService
+numiidQueue	public/AppQueue.py	/^    numiidQueue = Queue.Queue()$/;"	v	class:AppQueue
+onDelay	framework/SProcess.py	/^    def onDelay(self, delayTime):$/;"	m	class:SProcess
+open	lib/Network.py	/^    def open(self, method, url_path, params, protocol='http'):$/;"	m	class:Network
+openurl	lib/Browser.py	/^    def openurl(self,url):$/;"	m	class:Browser
+order	framework/wrap/GachaResultWrap.py	/^    order = None #顺序$/;"	v	class:GachaResultWrap
+order	framework/wrap/PvpRoundWrap.py	/^    order = None #顺序（1、2、3对应于左、中、右路，同时开始计时，4最后计时 ）$/;"	v	class:PvpRoundWrap
+otherPlayerNames	framework/wrap/FullPlayerWrap.py	/^    otherPlayerNames = []$/;"	v	class:FullPlayerWrap
+outGuildTimes	framework/wrap/PGuildWrap.py	/^    outGuildTimes = None #退出公会$/;"	v	class:PGuildWrap
+pid	framework/wrap/AccountWrap.py	/^    pid = None #平台ID$/;"	v	class:AccountWrap
+platform	framework/wrap/AccountWrap.py	/^    platform = None #帐号平台$/;"	v	class:AccountWrap
+playerIcon	framework/wrap/BossDamWrap.py	/^    playerIcon = None #玩家头像$/;"	v	class:BossDamWrap
+playerInfo	framework/wrap/BossBattleReport.py	/^    playerInfo = None #玩家伤害信息$/;"	v	class:BossBattleReport
+playerLv	framework/wrap/BossDamWrap.py	/^    playerLv = None #玩家等级$/;"	v	class:BossDamWrap
+playerName	framework/wrap/BossDamWrap.py	/^    playerName = None #玩家名字$/;"	v	class:BossDamWrap
+playerName	framework/wrap/BuildRankWrap.py	/^    playerName = None #玩家名字$/;"	v	class:BuildRankWrap
+playerName	framework/wrap/GuildMemberWrap.py	/^    playerName = None #帐号$/;"	v	class:GuildMemberWrap
+playerUID	framework/wrap/BossDamWrap.py	/^    playerUID = None #玩家UID$/;"	v	class:BossDamWrap
+playerUid	framework/wrap/GuildMemberWrap.py	/^    playerUid = None #角色唯一ID$/;"	v	class:GuildMemberWrap
+playerUid	framework/wrap/PvpRankWrap.py	/^    playerUid = None #角色UID$/;"	v	class:PvpRankWrap
+playerWrap	framework/wrap/FullPlayerWrap.py	/^    playerWrap = None #玩家基本信息$/;"	v	class:FullPlayerWrap
+point	framework/wrap/PvpInfoWrap.py	/^    point = None #积分$/;"	v	class:PvpInfoWrap
+point	framework/wrap/PvpRankWrap.py	/^    point = None #积分$/;"	v	class:PvpRankWrap
+popBool	framework/Packet.py	/^    def popBool(self):$/;"	m	class:Packet
+popBytes	framework/Packet.py	/^    def popBytes(self):$/;"	m	class:Packet
+popDouble	framework/Packet.py	/^    def popDouble(self):$/;"	m	class:Packet
+popFloat	framework/Packet.py	/^    def popFloat(self):$/;"	m	class:Packet
+popInt	framework/Packet.py	/^    def popInt(self):$/;"	m	class:Packet
+popLong	framework/Packet.py	/^    def popLong(self):$/;"	m	class:Packet
+popShort	framework/Packet.py	/^    def popShort(self):$/;"	m	class:Packet
+popString	framework/Packet.py	/^    def popString(self):$/;"	m	class:Packet
+poplLong	framework/Packet.py	/^    def poplLong(self):$/;"	m	class:Packet
+position	framework/wrap/BuildWrap.py	/^    position = None #建造位置$/;"	v	class:BuildWrap
+position	framework/wrap/CommodityWrap.py	/^    position = None #position$/;"	v	class:CommodityWrap
+position	framework/wrap/GuildMemberWrap.py	/^    position = None #权限$/;"	v	class:GuildMemberWrap
+precedence	framework/wrap/NoticeWrap.py	/^    precedence = None #优先级$/;"	v	class:NoticeWrap
+price	framework/wrap/CommodityWrap.py	/^    price = None #价格$/;"	v	class:CommodityWrap
+priceId	framework/wrap/CommodityWrap.py	/^    priceId = None #价格ID(货币对应的ItemID)$/;"	v	class:CommodityWrap
+progress	framework/wrap/PActivityWrap.py	/^    progress = None #进度$/;"	v	class:PActivityWrap
+progress	framework/wrap/TaskWrap.py	/^    progress = None #任务完成度$/;"	v	class:TaskWrap
+propIds	framework/wrap/BTHeroWrap.py	/^    propIds = []$/;"	v	class:BTHeroWrap
+propValues	framework/wrap/BTHeroWrap.py	/^    propValues = []$/;"	v	class:BTHeroWrap
+pveGroupWraps	framework/wrap/FullPlayerWrap.py	/^    pveGroupWraps = []$/;"	v	class:FullPlayerWrap
+pveId	framework/wrap/BonusWrap.py	/^    pveId = None #$/;"	v	class:BonusWrap
+pveId	framework/wrap/PveWrap.py	/^    pveId = None #pveId$/;"	v	class:PveWrap
+pveTeam	framework/wrap/GuildWrap.py	/^    pveTeam = []$/;"	v	class:GuildWrap
+pveWraps	framework/wrap/PveGroupWrap.py	/^    pveWraps = []$/;"	v	class:PveGroupWrap
+pvpActorWrapList	framework/wrap/PvpReportWrap.py	/^    pvpActorWrapList = []$/;"	v	class:PvpReportWrap
+pvpRoundWrapList	framework/wrap/PvpReportWrap.py	/^    pvpRoundWrapList = []$/;"	v	class:PvpReportWrap
+quality	framework/wrap/EquipAttrWrap.py	/^    quality = None #品质(0白1绿2蓝3紫)$/;"	v	class:EquipAttrWrap
+query	lib/Mysql.py	/^    def query(self, sql):$/;"	m	class:Mysql
+queryOne	lib/Mysql.py	/^    def queryOne(self, sql):$/;"	m	class:Mysql
+quit	lib/Mail.py	/^    def quit(self):$/;"	m	class:Mail
+rank	framework/wrap/BossDamWrap.py	/^    rank = None #排名$/;"	v	class:BossDamWrap
+rank	framework/wrap/BossWrap.py	/^    rank = None #当前排名$/;"	v	class:BossWrap
+rank	framework/wrap/PvpInfoWrap.py	/^    rank = None #排名$/;"	v	class:PvpInfoWrap
+rank	framework/wrap/PvpRankWrap.py	/^    rank = None #排名$/;"	v	class:PvpRankWrap
+rankWraps	framework/wrap/PvpInfoWrap.py	/^    rankWraps = []$/;"	v	class:PvpInfoWrap
+refreshDaily	framework/wrap/ShopWrap.py	/^    refreshDaily = None #当天刷新次数$/;"	v	class:ShopWrap
+registerService	framework/SProcess.py	/^    def registerService(self, service):$/;"	m	class:SProcess
+removeAction	main/services/TimerService.py	/^    def removeAction(self, action):$/;"	m	class:TimerService
+removeSession	framework/factory/ServerFactory.py	/^    def removeSession(self,sid):$/;"	m	class:ServerFactory
+replaceChar	lib/HtmlTools.py	/^    def replaceChar(self,x):  $/;"	m	class:HtmlTools
+replaceTab	lib/HtmlTools.py	/^    replaceTab = [("<","<"),(">",">"),("&","&"),("&","\\""),(" "," ")]  $/;"	v	class:HtmlTools
+reportUid	framework/wrap/PvpReportWrap.py	/^    reportUid = None #UID$/;"	v	class:PvpReportWrap
+resetCount	framework/wrap/PveWrap.py	/^    resetCount = None #重置次数$/;"	v	class:PveWrap
+restJoinGuildTime	framework/wrap/PGuildWrap.py	/^    restJoinGuildTime = None #最后一次重置加入公会时间$/;"	v	class:PGuildWrap
+restOutGuildTime	framework/wrap/PGuildWrap.py	/^    restOutGuildTime = None #最后一次重置退出公会时间$/;"	v	class:PGuildWrap
+ret1	framework/wrap/AccountWrap.py	/^    ret1 = None #保留字段1$/;"	v	class:AccountWrap
+ret2	framework/wrap/AccountWrap.py	/^    ret2 = None #保留字段2$/;"	v	class:AccountWrap
+ret3	framework/wrap/AccountWrap.py	/^    ret3 = None #保留字段3$/;"	v	class:AccountWrap
+ret4	framework/wrap/AccountWrap.py	/^    ret4 = None #保留字段4$/;"	v	class:AccountWrap
+roundTime	framework/wrap/PvpActorStatusWrap.py	/^    roundTime = None #该回合行动时间（s），为0表示存活下来，耗血时间等于对方回合时间的和$/;"	v	class:PvpActorStatusWrap
+run	framework/SProcess.py	/^    def run(self):$/;"	m	class:SProcess
+runeId	framework/wrap/RuneWrap.py	/^    runeId = None #符文id$/;"	v	class:RuneWrap
+runeWraps	framework/wrap/HeroWrap.py	/^    runeWraps = []$/;"	v	class:HeroWrap
+secondToMills	util/TimerUtil.py	/^    def secondToMills(second):$/;"	m	class:TimerUtil
+sendHtmlMail	lib/Mail.py	/^    def sendHtmlMail(self, msg):$/;"	m	class:Mail
+sendTextMail	lib/Mail.py	/^    def sendTextMail(self, msgs):$/;"	m	class:Mail
+senderName	framework/wrap/MailWrap.py	/^    senderName = None #发送者名称$/;"	v	class:MailWrap
+setBuffer	framework/Packet.py	/^    def setBuffer(self, buffers):$/;"	m	class:Packet
+setIndex	main/process/MailProc.py	/^    def setIndex(self, index):$/;"	m	class:MailProc
+setInterval	framework/SProcess.py	/^    def setInterval(self, interval):$/;"	m	class:SProcess
+setPack	framework/Command.py	/^    def setPack(self,pack):$/;"	m	class:Command
+setProcess	main/services/TimerService.py	/^    def setProcess(self, proc):$/;"	m	class:TimerService
+setReceiver	lib/Mail.py	/^    def setReceiver(self, receiver):$/;"	m	class:Mail
+setReceiver	lib/Mail.py	/^    def setReceiver(self, receiver):$/;"	m	class:MailD
+setSender	lib/Mail.py	/^    def setSender(self, sender):$/;"	m	class:Mail
+setSid	framework/Command.py	/^    def setSid(self,sid):$/;"	m	class:Command
+setSid	framework/handler/IoHander.py	/^    def setSid(self,sid):$/;"	m	class:IoHander
+setSmptServer	lib/Mail.py	/^    def setSmptServer(self, smptServer):$/;"	m	class:Mail
+setSubject	lib/Mail.py	/^    def setSubject(self, subject):$/;"	m	class:Mail
+setSubject	lib/Mail.py	/^    def setSubject(self, subject):$/;"	m	class:MailD
+setTimeZone	util/TimerUtil.py	/^    def setTimeZone(self, zoneID):$/;"	m	class:TimerUtil
+setWorkTime	framework/WorkLoading.py	/^    def setWorkTime(self, workTime):$/;"	m	class:WorkLoading
+shieldPercent	framework/wrap/PvpActorStatusWrap.py	/^    shieldPercent = None #剩余护盾百分比(保留)$/;"	v	class:PvpActorStatusWrap
+shopId	framework/wrap/ShopWrap.py	/^    shopId = None #商店ID$/;"	v	class:ShopWrap
+shopWraps	framework/wrap/FullPlayerWrap.py	/^    shopWraps = []$/;"	v	class:FullPlayerWrap
+sign	framework/wrap/PlayerWrap.py	/^    sign = None #签到信息$/;"	v	class:PlayerWrap
+signDayTimes	framework/wrap/PSignWrap.py	/^    signDayTimes = None #当天签到次数$/;"	v	class:PSignWrap
+signMonthTimes	framework/wrap/PSignWrap.py	/^    signMonthTimes = None #当月签到次数$/;"	v	class:PSignWrap
+skillIds	framework/wrap/BTHeroWrap.py	/^    skillIds = []$/;"	v	class:BTHeroWrap
+skillIds	framework/wrap/HeroWrap.py	/^    skillIds = []$/;"	v	class:HeroWrap
+skillLvs	framework/wrap/HeroWrap.py	/^    skillLvs = []$/;"	v	class:HeroWrap
+star	framework/wrap/HeroWrap.py	/^    star = None #星级$/;"	v	class:HeroWrap
+start	framework/SDevice.py	/^    def start(self):$/;"	m	class:SDevice
+start	framework/SProcess.py	/^    def start(self):$/;"	m	class:SProcess
+start	framework/Service.py	/^    def start(self):$/;"	m	class:Service
+start	main/MainDev.py	/^    def start(self):$/;"	m	class:MainDev
+start	main/services/CheckService.py	/^    def start(self):$/;"	m	class:CheckService
+start	main/services/MailService.py	/^    def start(self):$/;"	m	class:MailService
+start	main/services/MainService.py	/^    def start(self):$/;"	m	class:MainService
+start	main/services/TimerService.py	/^    def start(self):$/;"	m	class:TimerService
+startTime	framework/wrap/GActivityWrap.py	/^    startTime = None #开始时间$/;"	v	class:GActivityWrap
+status	framework/wrap/AccountWrap.py	/^    status = None #账户状态$/;"	v	class:AccountWrap
+status	framework/wrap/MailWrap.py	/^    status = None #邮件状态$/;"	v	class:MailWrap
+status	framework/wrap/ShopWrap.py	/^    status = None #商店的状态0正常1永久召唤$/;"	v	class:ShopWrap
+strToTime	lib/TimeUtil.py	/^def strToTime(format_birth):$/;"	f
+strToTime	util/TimerUtil.py	/^    def strToTime(format_birth):$/;"	m	class:TimerUtil
+sysTime	framework/wrap/FullPlayerWrap.py	/^    sysTime = None #系统时间（UTC时间ms)$/;"	v	class:FullPlayerWrap
+taskId	framework/wrap/TaskWrap.py	/^    taskId = None #任务ID$/;"	v	class:TaskWrap
+taskWraps	framework/wrap/FullPlayerWrap.py	/^    taskWraps = []$/;"	v	class:FullPlayerWrap
+teamID	framework/wrap/TeamWrap.py	/^    teamID = None #teamID$/;"	v	class:TeamWrap
+teamWraps	framework/wrap/FullPlayerWrap.py	/^    teamWraps = []$/;"	v	class:FullPlayerWrap
+time	framework/wrap/ActiveWrap.py	/^    time = None #时间$/;"	v	class:ActiveWrap
+time	framework/wrap/BuildRankWrap.py	/^    time = None #获取奖励时间$/;"	v	class:BuildRankWrap
+time	framework/wrap/GuildLogWrap.py	/^    time = None #创建时间$/;"	v	class:GuildLogWrap
+time	framework/wrap/MailWrap.py	/^    time = None #发送时间$/;"	v	class:MailWrap
+time	framework/wrap/MessageWrap.py	/^    time = None #时间$/;"	v	class:MessageWrap
+time	framework/wrap/NoticeWrap.py	/^    time = None #发送时间$/;"	v	class:NoticeWrap
+timeToStr	lib/TimeUtil.py	/^def timeToStr(birth_secds):$/;"	f
+timeToStr	util/TimerUtil.py	/^    def timeToStr(mills):$/;"	m	class:TimerUtil
+title	framework/wrap/ActivityWrap.py	/^    title = None #活动标题$/;"	v	class:ActivityWrap
+title	framework/wrap/GActivityWrap.py	/^    title = None #活动标题$/;"	v	class:GActivityWrap
+title	framework/wrap/MailWrap.py	/^    title = None #标题$/;"	v	class:MailWrap
+topRankWraps	framework/wrap/PvpInfoWrap.py	/^    topRankWraps = []$/;"	v	class:PvpInfoWrap
+topTen	framework/wrap/BossWrap.py	/^    topTen = []$/;"	v	class:BossWrap
+type	framework/wrap/ActivityWrap.py	/^    type = None #活动类型$/;"	v	class:ActivityWrap
+type	framework/wrap/GActivityWrap.py	/^    type = None #显示活动类型$/;"	v	class:GActivityWrap
+type	framework/wrap/GuildLogWrap.py	/^    type = None #日志类型$/;"	v	class:GuildLogWrap
+uid	framework/wrap/AccountWrap.py	/^    uid = None #账号UID$/;"	v	class:AccountWrap
+uid	framework/wrap/ActiveWrap.py	/^    uid = None #UID$/;"	v	class:ActiveWrap
+uid	framework/wrap/ActivityWrap.py	/^    uid = None #活动ID$/;"	v	class:ActivityWrap
+uid	framework/wrap/BTHeroWrap.py	/^    uid = None #UID$/;"	v	class:BTHeroWrap
+uid	framework/wrap/GActivityWrap.py	/^    uid = None #uid$/;"	v	class:GActivityWrap
+uid	framework/wrap/GuildLogWrap.py	/^    uid = None #UID$/;"	v	class:GuildLogWrap
+uid	framework/wrap/GuildMemberWrap.py	/^    uid = None #UID$/;"	v	class:GuildMemberWrap
+uid	framework/wrap/GuildWrap.py	/^    uid = None #UID$/;"	v	class:GuildWrap
+uid	framework/wrap/HeroWrap.py	/^    uid = None #UID$/;"	v	class:HeroWrap
+uid	framework/wrap/ItemWrap.py	/^    uid = None #道具UID$/;"	v	class:ItemWrap
+uid	framework/wrap/MailWrap.py	/^    uid = None #uid$/;"	v	class:MailWrap
+uid	framework/wrap/PActivityWrap.py	/^    uid = None #任务UID$/;"	v	class:PActivityWrap
+uid	framework/wrap/PChatWrap.py	/^    uid = None #唯一标识$/;"	v	class:PChatWrap
+uid	framework/wrap/PGuildWrap.py	/^    uid = None #唯一标识$/;"	v	class:PGuildWrap
+uid	framework/wrap/PSignWrap.py	/^    uid = None #唯一标识$/;"	v	class:PSignWrap
+uid	framework/wrap/PlayerWrap.py	/^    uid = None #uid$/;"	v	class:PlayerWrap
+uid	framework/wrap/PveFriendInfoWrap.py	/^    uid = None #uid$/;"	v	class:PveFriendInfoWrap
+uid	framework/wrap/TaskWrap.py	/^    uid = None #uid$/;"	v	class:TaskWrap
+unlock	framework/wrap/BuildWrap.py	/^    unlock = None #是否解锁$/;"	v	class:BuildWrap
+unpack	framework/Packet.py	/^    def unpack(self, t):$/;"	m	class:Packet
+update	framework/Service.py	/^    def update(self,diff,now):$/;"	m	class:Service
+update	framework/timer/Action.py	/^    def update(self,diff,now):$/;"	m	class:Action
+update	framework/timer/PeriodicTimer.py	/^    def update(self, millis):$/;"	m	class:PeriodicTimer
+update	main/services/CheckService.py	/^    def update(self, diff, now):$/;"	m	class:CheckService
+update	main/services/MailService.py	/^    def update(self, diff, now):$/;"	m	class:MailService
+update	main/services/MainService.py	/^    def update(self, diff, now):$/;"	m	class:MainService
+update	main/services/TimerService.py	/^    def update(self, diff, now):$/;"	m	class:TimerService
+update	main/timer/MonitorAction.py	/^    def update(self, diff, now):$/;"	m	class:MonitorAction
+updateWorkTime	framework/WorkLoading.py	/^    def updateWorkTime(self, deltaMS, now):$/;"	m	class:WorkLoading
+validTime	framework/wrap/SignWrap.py	/^    validTime = None #生效时间$/;"	v	class:SignWrap
+value	framework/wrap/ActiveWrap.py	/^    value = None #活跃度值$/;"	v	class:ActiveWrap
+value	framework/wrap/EquipAttrWrap.py	/^    value = None #属性值$/;"	v	class:EquipAttrWrap
+vipLvDouble	framework/wrap/SignWrap.py	/^    vipLvDouble = None #vip领双份等级$/;"	v	class:SignWrap
+waveIdx	framework/wrap/MonsterBonusWrap.py	/^    waveIdx = None #第几波的怪(1,2,3)$/;"	v	class:MonsterBonusWrap
+worshipTimes	framework/wrap/GuildMemberWrap.py	/^    worshipTimes = None #膜拜次数$/;"	v	class:GuildMemberWrap
